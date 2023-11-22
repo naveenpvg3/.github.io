@@ -110,8 +110,10 @@ header {
   background-color: #45a049;
 }
 
-/* Additional Styles (Adjust as needed) */
-
+.company-logo {
+  width: 20px; /* Adjust the size as needed */
+  margin-left: 5px; /* Add some spacing between title and logo */
+}
 
 section {
   padding: 20px;
