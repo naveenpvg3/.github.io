@@ -68,6 +68,51 @@ header {
   margin-right: 10px;
 }
 
+/* Add this to your style.css file */
+
+/* Skillset Section Styles */
+#skillset {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-category li {
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.skill-category li:hover {
+  background-color: #45a049;
+}
+
+/* Additional Styles (Adjust as needed) */
+
+
 section {
   padding: 20px;
 }
