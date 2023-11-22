@@ -1,4 +1,5 @@
 /* style.css */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -33,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #ffcc00; /* Change the color on hover */
+  color: #ffcc00;
 }
 
 header {
@@ -44,8 +45,8 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Updated to column */
+  align-items: center; /* Center align items */
 }
 
 .profile-section {
@@ -54,13 +55,14 @@ header {
 
 .icons-section {
   display: flex;
+  justify-content: center; /* Center align icons */
+  margin-top: 10px; /* Add margin between Software Engineer and icons */
 }
 
 .profile-photo {
   border-radius: 50%;
   max-width: 150px;
   margin-bottom: 10px;
-  margin-right: 10px;
 }
 
 .icon {
@@ -70,7 +72,7 @@ header {
 
 #home {
   background-color: #f4f4f4;
-  padding: 50px 0; /* Adjust padding as needed */
+  padding: 50px 0;
   text-align: center;
 }
 
