@@ -91,6 +91,35 @@ header {
   color: #666;
 }
 
+/* Educational Section Styles */
+.education-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.education-entry {
+  margin-bottom: 30px;
+}
+
+.education-entry h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.education-entry p {
+  font-size: 1.1em;
+  color: #666;
+  margin: 0;
+}
+
+.education-entry strong {
+  font-weight: bold;
+}
+
 #skillset {
   background-color: #fff;
   border-radius: 8px;
