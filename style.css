@@ -28,6 +28,12 @@ body {
   margin-right: 10px;
 }
 
+.project-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .icon {
   width: 30px;
   margin-right: 10px;
@@ -36,4 +42,11 @@ body {
 header {
   background-color: #333;
   color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
