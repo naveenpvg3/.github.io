@@ -68,9 +68,27 @@ header {
   margin-right: 10px;
 }
 
-/* Add this to your style.css file */
+#home {
+  background-color: #f4f4f4;
+  padding: 50px 0; /* Adjust padding as needed */
+  text-align: center;
+}
 
-/* Skillset Section Styles */
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#home h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+#home p {
+  font-size: 1.2em;
+  color: #666;
+}
+
 #skillset {
   background-color: #fff;
   border-radius: 8px;
