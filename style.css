@@ -30,9 +30,15 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
 .profile-photo {
   border-radius: 50%;
   max-width: 150px;
   margin-bottom: 10px;
+}
+
+.icon {
+  width: 30px; /* Adjust the size as needed */
+  margin-right: 10px;
 }
 
