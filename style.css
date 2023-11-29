@@ -181,6 +181,7 @@ header {
 .experience .job-title a {
   color: #000; /* Change color to black */
   transition: color 0.3s ease;
+  padding: 10px 20px;
 }
 
 .experience:hover .job-title,
@@ -192,7 +193,7 @@ header {
 .experience .date {
   font-style: italic;
   color: #555;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 section {
