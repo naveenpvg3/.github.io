@@ -170,11 +170,15 @@ header {
 
 .experience {
   margin-bottom: 20px;
+  border-left: 2px solid #007bff; /* Use a border on the left for a decorative element */
+  padding-left: 20px; /* Add some padding to the left of the content */
 }
 
 .experience .job-title {
   font-weight: bold;
   color: #007bff;
+  font-size: 1.2em; /* Increase font size for emphasis */
+  margin-bottom: 5px; /* Add spacing between job title and date */
 }
 
 .experience .date {
