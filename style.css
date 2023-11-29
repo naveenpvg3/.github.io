@@ -177,13 +177,17 @@ header {
   transform: translateY(-5px); /* Add a slight lift on hover */
 }
 
-.experience .job-title {
-  font-weight: bold;
-  color: #000;
-  font-size: 1.2em;
-  margin-bottom: 5px;
-  padding: 10px;
+.experience .job-title,
+.experience .job-title a {
+  color: #000; /* Change color to black */
+  transition: color 0.3s ease;
 }
+
+.experience:hover .job-title,
+.experience:hover .job-title a {
+  color: #555; /* Change color on hover if desired */
+}
+
 
 .experience .date {
   font-style: italic;
