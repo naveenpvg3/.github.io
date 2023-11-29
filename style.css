@@ -161,29 +161,34 @@ header {
 
 /* Work Experience Section Styles */
 #work-experience {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
   margin-top: 20px;
 }
 
 .experience {
   margin-bottom: 20px;
-  border-left: 2px solid #007bff; /* Use a border on the left for a decorative element */
-  padding-left: 20px; /* Add some padding to the left of the content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.experience:hover {
+  transform: translateY(-5px); /* Add a slight lift on hover */
 }
 
 .experience .job-title {
   font-weight: bold;
   color: #007bff;
-  font-size: 1.2em; /* Increase font size for emphasis */
-  margin-bottom: 5px; /* Add spacing between job title and date */
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  padding: 10px;
 }
 
 .experience .date {
   font-style: italic;
   color: #555;
+  padding: 10px;
 }
 
 section {
